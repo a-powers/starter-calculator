@@ -17,7 +17,7 @@ operation = {
     "/":divide
 }
 
-def operations():
+def calculations():
 
     first_num = int(input("What is your first number? "))
     for i in operation:
@@ -34,4 +34,4 @@ def operations():
 
 
 
-operations()
+calculations()
