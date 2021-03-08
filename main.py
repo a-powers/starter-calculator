@@ -17,3 +17,20 @@ operations = {
     "/":divide
 }
 
+def operations():
+
+    first_num = input("What is your first number? ")
+    for i in operations:
+        print(i)
+    ops = input("What op do you want to make?")
+
+
+
+
+
+
+
+
+
+
+operations()
