@@ -10,7 +10,7 @@ def multiply(num1, num2):
 def divide(num1, num2):
     return num1 / num2
 
-operations = {
+operation = {
     "+":add,
     "-":subtract,
     "*":multiply,
@@ -19,10 +19,11 @@ operations = {
 
 def operations():
 
-    first_num = input("What is your first number? ")
-    for i in operations:
+    first_num = int(input("What is your first number? "))
+    for i in operation:
         print(i)
     ops = input("What op do you want to make?")
+
 
 
 
