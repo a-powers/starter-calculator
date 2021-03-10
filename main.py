@@ -23,15 +23,7 @@ def calculations():
     for i in operation:
         print(i)
     ops = input("What op do you want to make?")
+    calc_ops = True
 
-
-
-
-
-
-
-
-
-
-
-calculations()
+    while still_calculating:
+        
