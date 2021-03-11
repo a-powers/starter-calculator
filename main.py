@@ -25,9 +25,9 @@ def calculations():
     calc_ops = True
 
     while still_calculating:
-        ops = input("What op do you want to make?")
-
+        ops_symbol = input("What op do you want to make?")
         second_num = int(input("What is the second number? "))
+        
 
 
 calculations()        
