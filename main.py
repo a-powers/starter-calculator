@@ -24,9 +24,13 @@ def calculations():
         print(i)
     calc_ops = True
 
-    while still_calculating:
+    while calc_ops:
         ops_symbol = input("What op do you want to make?")
         second_num = int(input("What is the second number? "))
+        calc_ops = operation[ops_symbol]
+        answer = calc_ops(first_num,second_num)
+        calc_ops = False
+        print(answer)
         
 
 
