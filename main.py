@@ -23,6 +23,11 @@ def calculations():
     for i in symbol_dict:
         print(i)
     symbol = input("Type math symbol")
+    continue_calculation = True
+    
+
+
+
     num2 = int(input("Type second number"))
     calc = symbol_dict[symbol]
     
