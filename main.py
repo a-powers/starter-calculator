@@ -24,12 +24,12 @@ def calculations():
         print(i)
     symbol = input("Type math symbol")
     continue_calculation = True
-    
 
-
-
-    num2 = int(input("Type second number"))
-    calc = symbol_dict[symbol]
+    while continue_calculation:
+        num2 = int(input("Type second number"))
+        calc_job = symbol_dict[symbol]
+        answer = calc_job(num1, num2)
+        print(answer)
     
         
     
