@@ -22,14 +22,17 @@ calc_functions = {
 }
 
 def calculator():
-    first_num = int(input("Type first number. "))
+    num1 = int(input("Type first number. "))
     for i in calc_functions:
         print(i)
     math_symbol = input("What function do you want? ")
     continue_calculation = True
 
     while continue_calculation:
-        second_num = int(input("Type second number. "))
+        num2 = int(input("Type second number. "))
+        calculation = calc_functions[math_symbol]
+        answer = calculation(num1, num1)
+        print(answer)
         
 
 
