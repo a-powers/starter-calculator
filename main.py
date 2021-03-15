@@ -29,6 +29,7 @@ def calculator():
     continue_calculation = True
 
     while continue_calculation:
+        second_num = int(input("Type second number. "))
         
 
 
