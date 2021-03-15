@@ -13,15 +13,20 @@ def multiply(num1, num2):
 def divide(num1, num2):
     return num1 / num2
 
+def power(num1, num2):
+    return pow(num1,num2)
+
 
 calc_functions = {
     "+":add,
     "-":subtract,
     "*":multiply,
-    "/":divide
+    "/":divide,
+    "^":power
 }
 
 def calculator():
+    print(logo)
     num1 = int(input("Type first number. "))
     for i in calc_functions:
         print(i)
@@ -32,7 +37,7 @@ def calculator():
         num2 = int(input("Type second number. "))
         calculation = calc_functions[math_symbol]
         answer = calculation(num1, num1)
-        print(answer)
+        print(f'{num1} {math_symbol} {num2} = {answer}')
         
 
 
